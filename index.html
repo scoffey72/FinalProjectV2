@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 120%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #111;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 12px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Hello-world {background-color: white;}
+#Getting-to-know-you-v1 {background-color: green;}
+#Getting-to-know-you-v2 {background-color: white;}
+#Matchmaker {background-color: #FFDAA5;}
+#Risk_calculator {background-color: #CDFEFF;}
+
+</style>
+</head>
+<body>
+
+<button class="tablink" onclick="openPage('Hello-world', this, 'red')">Hello World</button>
+<button class="tablink" onclick="openPage('Getting_to_know_you_v1', this, 'green')" id="defaultOpen">Getting to Know You V1</button>
+<button class="tablink" onclick="openPage('Getting-to-know-you-v2', this, 'blue')">Getting to Know You V2</button>
+<button class="tablink" onclick="openPage('Matchmaker', this, 'purple')">Matchmaker</button>
+<button class="tablink" onclick="openPage('Risk_calculator', this, 'maroon')">Risk Calculator</button>
+
+
+
+<div id="Hello-world" class="tabcontent">
+  <h3 style= 'color:black'>Hello World</h3>
+  <p1 style= 'color:black'>Hello World -src</p1>
+</div>
+
+<div id="Getting_to_know_you_v1" class="tabcontent">
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Getting to Know Sean Coffey</title>
+        <link rel="stylesheet" href="getting-to-know-you-v2.css">
+        <style>
+            h1 {text-align: center;}
+            .centerImage{text-align:center;display:block;}
+
+        </style>  
+         
+    </head>
+    
+    <body style = 'color: white'>
+            <h1>Getting to Know Sean Coffey</h1>
+            <a href="mailto:seancoffey@lewisu.edu">seancoffey@lewisu.edu</a>
+
+            <h2>About Me</h2> 
+      
+        
+            <p2>Hi, Im Sean Coffey. I am currently a sophmore here at Lewis.
+                 I am double majoring in physics and I will transfer to IIT 
+                 for my second degree in mechanial engineering. Outside of 
+                 school I work at pilot and am currently looking into coaching
+                  for hockey. I have played hockey for 10 years now and would 
+                  like to be a goalie coach for my friend's team. I love that kind 
+                  of atmosphere. I used to work for the proshop at the ice rink.
+                   While in college I live at home with my parents, brother, sister, 
+                   and aunt. I have two brothers and two sisters.</p2>
+            <h2>What I Hope to Learn</h2>
+            <ul>
+                <li style= 'color:black'>How to become better at python</li>
+                <li style= 'color:black'>How to better manage files and use powershell</li>
+                <li style= 'color:black'>Basic coding languages</li>
+              </ul>
+            <h2>My Favorite Hobby</h2>
+             <p2>I have many hobbies. These would include chess, video games, and hockey.
+                However, as I mentioned earlier, I absolutly love ice hockey. It has been in my 
+                life for the longest time. My fascination for the game kicked off when I saw the 
+                 BlackHawkswin the Stanley Cup in 2010. That following summer I started to learn
+                 to ice skate. I started off just in a learn to skate then joined my hockey club. 
+                 I had started off as a regular skater but soon switched to being a goalie.
+                 I stayed with the game and had a lot of fun with it. I definetly miss playing
+                and really want to get into coaching. 
+          </p2>
+          <h2>Greatest Innovations</h2>
+          <ul>
+              <li> <a href="https://www.smithsonianmag.com/innovation/computers-changed-world-180969987/">
+                     Apple II was first computer designed for homes</a>   </li>
+              <li> <a href="https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/11_chapter2.xhtml#sec_17">Bianary, Octal, and Hexidecimal made coding better</a>    </li>
+              <li> <a href="https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml">
+                Intenet allowed for computers to connect to eachother</a>         </li>
+          </ul>
+          <h2>Fun Facts About Me</h2>
+          <p2>The thing people normally remebr about me is my last name. Growing up I heard
+               a lot of Coffee puns, so I challenge you to come up with something origional.
+                Other Fun Facts are that I was on chess team, did judo, and was on drumline in highschool.</p2><br />
+            <div class="center">
+            <img src="sean-image.jpg"  alt="Sean's Picture" style="width:300px">
+            
+          </div>
+        </body>
+</div>
+
+
+
+
+<div id="Getting-to-know-you-v2" class="tabcontent">
+    <!doctype html>
+    <html lang="en">
+      
+        <head>
+            <meta charset="UTF-8">
+            <title>Getting to Know Sean Coffey</title>
+            <link rel="stylesheet" href="getting-to-know-you-v2.css">
+            <style>
+                h1 {text-align: center;}
+                .centerImage{text-align:center;display:block;}
+    
+            </style>  
+             
+        </head>
+        
+        <body>
+                <h1>Getting to Know Sean Coffey</h1>
+                <a href="mailto:seancoffey@lewisu.edu">seancoffey@lewisu.edu</a>
+    
+                <h2>About Me</h2> 
+                
+            
+                <p2>Hi, Im Sean Coffey. I am currently a sophmore here at Lewis.
+                     I am double majoring in physics and I will transfer to IIT 
+                     for my second degree in mechanial engineering. Outside of 
+                     school I work at pilot and am currently looking into coaching
+                      for hockey. I have played hockey for 10 years now and would 
+                      like to be a goalie coach for my friend's team. I love that kind 
+                      of atmosphere. I used to work for the proshop at the ice rink.
+                       While in college I live at home with my parents, brother, sister, 
+                       and aunt. I have two brothers and two sisters.</p2>
+                <h2>What I Hope to Learn</h2>
+                <ul>
+                    <li style= 'color:black'>How to become better at python</li>
+                    <li style= 'color:black'>How to better manage files and use powershell</li>
+                    <li style= 'color:black'>Basic coding languages</li>
+                  </ul>
+                <h2>My Favorite Hobby</h2>
+                 <p2>I have many hobbies. These would include chess, video games, and hockey.
+                    However, as I mentioned earlier, I absolutly love ice hockey. It has been in my 
+                    life for the longest time. My fascination for the game kicked off when I saw the 
+                     BlackHawkswin the Stanley Cup in 2010. That following summer I started to learn
+                     to ice skate. I started off just in a learn to skate then joined my hockey club. 
+                     I had started off as a regular skater but soon switched to being a goalie.
+                     I stayed with the game and had a lot of fun with it. I definetly miss playing
+                    and really want to get into coaching. 
+              </p2>
+              <h2>Greatest Innovations</h2>
+              <ul>
+                  <li> <a href="https://www.smithsonianmag.com/innovation/computers-changed-world-180969987/">
+                         Apple II was first computer designed for homes</a>   </li>
+                  <li> <a href="https://learning.oreilly.com/library/view/computer-science-illuminated/9781284055917/11_chapter2.xhtml#sec_17">Bianary, Octal, and Hexidecimal made coding better</a>    </li>
+                  <li> <a href="https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml">
+                    Intenet allowed for computers to connect to eachother</a>         </li>
+              </ul>
+              <h2>Fun Facts About Me</h2>
+              <p2>The thing people normally remebr about me is my last name. Growing up I heard
+                   a lot of Coffee puns, so I challenge you to come up with something origional.
+                    Other Fun Facts are that I was on chess team, did judo, and was on drumline in highschool.</p2><br />
+                <div class="center">
+                <img src="sean-image.jpg"  alt="Sean's Picture" style="width:300px">
+              </div>
+            </body>
+    
+    
+            <style>
+               
+                #myHeader {
+                  background-color: rgb(55, 163, 182);
+                  color: black;
+                  padding: 40px;
+                  text-align: center;
+                }
+                
+                /* Style all elements with the class name "hobbies" */
+                .hobbies {
+                  background-color: grey;
+                  color: white;
+                  padding: 10px;
+                } 
+                </style>
+               
+    
+        
+                
+                <h1 id="myHeader">My Hobbies</h1>
+                
+    
+                <h2 class="hobbies">Hockey</h2>
+                <p2 style= 'color: black'>it was a large part of my life. I know I mentioned it was my favorite hobby, but it 
+                  has been a really big part of my life. i distinctly rember my first Hawks game. To keep it brief,
+                   it was on Valentine's Day in 2009. They played the Dallas Stars and had a landslide victory. They won 6-1.
+                   It was a great wat to get into the sport and lead me to many other memorable moments. </p2>
+                
+                <h2 class="hobbies">Chess</h2>
+                <p2 style= 'color: black'>I did chess team for a few years in highschool. I wan not the best but I enjoyed it. I stopped 
+                  because I like to play for fun, not completitively.
+                </p2>
+                
+                <h2 class="hobbies">Band</h2>
+                <p2 style = 'color: black'> I did concert band for all yeats in highschool. I was a member of the MCHS marching band. I did aux my 
+                  freshman year; bass drum my sophmore and junior year; and I was on snare line my senior year.</p2>
+               
+                
+                <h2 class="hobbies">Xbox</h2>
+                <p2 style = 'color: black'>I do not get a lot of free time so I play a little xbox to wind down after a long day.
+                <br>
+                <p3 style ='color: black'>Thank you for getting to know Sean <span style='font: size 50px;'>&#9749;</span></p3>
+    
+              
+    </html>
+</div>
+
+
+
+
+
+
+<div id="Matchmaker" class="tabcontent">
+  <head>
+    <meta charset="UTF-8">
+    <title>Matchmaker</title>
+</head>
+ 
+<body style = 'background-color: #FFDAA5'>
+    <h1 style = 'font-size: 200%; font-family: Brush Script MT; color: black;''>Matchmaker</h1>
+    <pre style = 'font-size: 160%; font-family: Brush Script MT; color: black'>
+- Matchmaker by Sean Coffey                                             
+- You will be asked a series of questions, please enter how you feel.
+- Be honest in your response and good luck          
+      </pre>
+
+    <label style= 'color: black'>The Blackhawks are the best hockey team</label></br>
+    <select id="q1">
+        <option value="5">Strongly Agree</option>
+        <option value="4">Agree</option>
+        <option value="3">Neither Agree nor Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="1">Strongly Disagree</option>
+    </select></body></br></br>
+    <label style= 'color: black'>Hockey is the best sport</label></body></br>
+    <select id="q2">
+        <option value="5">Strongly Agree</option>
+        <option value="4">Agree</option>
+        <option value="3">Neither Agree nor Disagree</option>
+        <option value="2">Disagree</option>
+        <option value="1">Strongly Disagree</option>
+    </select>
+</br></br>
+<label style= 'color: black'>Arron Rodgers is cool</label></body></br>
+<select id="q3">
+    <option value="5">Strongly Agree</option>
+    <option value="4">Agree</option>
+    <option value="3">Neither Agree nor Disagree</option>
+    <option value="2">Disagree</option>
+    <option value="1">Strongly Disagree</option>
+</select>
+</br></br>
+<label style= 'color: black'>The batmobile is the coolest car</label></body></br>
+<select id="q4">
+    <option value="5">Strongly Agree</option>
+    <option value="4">Agree</option>
+    <option value="3">Neither Agree nor Disagree</option>
+    <option value="2">Disagree</option>
+    <option value="1">Strongly Disagree</option>
+</select>
+</br></br>
+<label style= 'color: black'>Star Wars is the greatest story</label></body></br>
+<select id="q5">
+    <option value="5">Strongly Agree</option>
+    <option value="4">Agree</option>
+    <option value="3">Neither Agree nor Disagree</option>
+    <option value="2">Disagree</option>
+    <option value="1">Strongly Disagree</option>
+</select>
+</br>
+</br>
+
+    <button onclick="calculateCompatability()">Calculate Compatability</button>
+    <p id="compatability"></p>
+<script>
+console.log("Starting Matchmaker Lite...");
+
+function calculateCompatability() {
+    console.log("caclulateCompatability()")
+
+    const Desired_Response = [
+        5,
+        5,
+        1,
+        4,
+        5
+    ]
+
+    const MAX_SCRORE = 25
+
+    let question1Response = document.getElementById('q1').selectedOptions[0].value;
+    let question2Response = document.getElementById('q2').selectedOptions[0].value;
+    let question3Response = document.getElementById('q3').selectedOptions[0].value;
+    let question4Response = document.getElementById('q4').selectedOptions[0].value;
+    let question5Response = document.getElementById('q5').selectedOptions[0].value;
+
+
+console.log("Question 1 Answer:")
+console.log(document.getElementById('q1').selectedOptions[0].text);
+console.log(document.getElementById('q1').selectedOptions[0].value);
+console.log(question1Response)
+
+console.log("Question 2 Answer:")
+console.log(document.getElementById('q2').selectedOptions[0].text);
+console.log(document.getElementById('q2').selectedOptions[0].value);
+console.log(question2Response)
+
+console.log("Question 3 Answer:")
+console.log(document.getElementById('q3').selectedOptions[0].text);
+console.log(document.getElementById('q3').selectedOptions[0].value);
+console.log(question1Response)
+
+console.log("Question 4 Answer:")
+console.log(document.getElementById('q4').selectedOptions[0].text);
+console.log(document.getElementById('q4').selectedOptions[0].value);
+console.log(question1Response)
+
+console.log("Question 5 Answer:");
+console.log(document.getElementById('q5').selectedOptions[0].text);
+console.log(document.getElementById('q5').selectedOptions[0].value);
+console.log(question1Response);
+
+
+let question1Compatability = 5 - Math.abs(question1Response - Desired_Response[0]);
+let question2Compatability = 5 - Math.abs(question2Response - Desired_Response[1]);
+let question3Compatability = 5 - Math.abs(question3Response - Desired_Response[2]);
+let question4Compatability = 5 - Math.abs(question4Response - Desired_Response[3]);
+let question5Compatability = 5 - Math.abs(question5Response - Desired_Response[4]);
+
+console.log("c1="+question1Compatability);
+console.log("c2="+question2Compatability);
+console.log("c3="+question3Compatability);
+console.log("c4="+question4Compatability);
+console.log("c5="+question5Compatability);
+
+let totalCompatability = question1Compatability + question2Compatability + question3Compatability + question4Compatability + question5Compatability;
+
+totalCompatability *=100 / MAX_SCRORE;
+totalCompatability = Math.round(totalCompatability);
+console.log("tc="+totalCompatability);
+
+
+
+document.getElementById("compatability").innerHTML = "Your compatability is: "+totalCompatability + "%";
+}
+
+</script>
+
+
+</body>
+</div>
+
+<div id="Risk_calculator" class="tabcontent">
+    <head>
+      <meta charset="UTF-8">
+      <title style= 'color: black'>Health Insurance Risk Calculator</title>
+  </head>
+   
+  <body style = 'background-color: #CDFEFF'>
+      <h1 style = 'font-size: 200%; color: black'>Health Insurance Risk Calculator</h1>
+      <pre style = 'font-size: 160%; color: black'>
+  -Risk Calculator by Sean Coffey                                             
+  - Please answer the questions about the customer's health
+          
+        </pre>
+  
+      <label style= 'color: black'>Customer's Body Mass Index (BMI)</label></br>
+      <select id="q1">
+          <option value="0">Normal (18.5-24.9)</option>
+          <option value="35">Overweight (25.0-29.9)</option>
+          <option value="75">else</option>
+      
+      </select></body></br></br>
+      <label style= 'color: black'>Customer's Blood Pressure</label></body></br>
+      <select id="q2">
+          <option value="0">Normal (Less than 120 upper number and less than 80 lower number)</option>
+          <option value="15">Elevated (120-129 upper and Less than 80 lower)</option>
+          <option value="30">Stage 1 (130-139 upper and 80-89 lower)</option>
+          <option value="75">Stage 2 (140+ upper and 90+ lower)</option>
+          <option value="100">Crisis (180+ upper or 120+ lower)</option>
+      </select>
+  </br></br>
+  <label style= 'color: black'>Customer's Age</label></body></br>
+  <select id="q3">
+      <option value="0">less than 30 </option>
+      <option value="10">between 30 and 45</option>
+      <option value="20">between 45 and 60</option>
+      <option value="30">older than 60</option>
+      
+  </select>
+  </br></br>
+  <label style= 'color: black'>Is there a history of diabetes in the family?</label></body></br>
+  <select id="q4">
+      <option value="0">no</option>
+      <option value="10">yes</option>
+  
+  
+  </select>
+  </br></br>
+  
+  <label style= 'color: black'>Is there a  history of cancer in the family?</label></body></br>
+  <select id="q5">
+      <option value="0">no</option>
+      <option value="10">yes</option>
+  
+  </select>
+  </br></br>
+  
+  <label style= 'color: black'>Is there a history of Alzheimer's in the family?</label></body></br>
+  <select id="q6">
+      <option value="0">no</option>
+      <option value="10">yes</option>
+  
+  </select>
+  </br></br>
+  
+  </br>
+  
+      <button onclick="calculateRisk()">Calculate Risk</button>
+      <p id="Risk"></p>
+      
+      <p id="risk"></p>
+  
+      <p id="remark"></p>
+  
+  <script>
+  console.log("Starting Risk Checker ...");
+  
+  function calculateRisk() {
+      console.log("caclulateRisk()")
+     
+  
+  
+  
+  
+      let question1Response = document.getElementById('q1').selectedOptions[0].value;
+      let question2Response = document.getElementById('q2').selectedOptions[0].value;
+      let question3Response = document.getElementById('q3').selectedOptions[0].value;
+      let question4Response = document.getElementById('q4').selectedOptions[0].value;
+      let question5Response = document.getElementById('q5').selectedOptions[0].value;
+      let question6Response = document.getElementById('q6').selectedOptions[0].value;
+      
+  
+      console.log("Question 1 Answer:")
+      console.log(document.getElementById('q1').selectedOptions[0].text);
+      console.log(document.getElementById('q1').selectedOptions[0].value);
+      console.log(question1Response)
+  
+      console.log("Question 2 Answer:")
+      console.log(document.getElementById('q2').selectedOptions[0].text);
+      console.log(document.getElementById('q2').selectedOptions[0].value);
+      console.log(question2Response)
+  
+      console.log("Question 3 Answer:")
+      console.log(document.getElementById('q3').selectedOptions[0].text);
+      console.log(document.getElementById('q3').selectedOptions[0].value);
+      console.log(question1Response)
+  
+      console.log("Question 4 Answer:")
+      console.log(document.getElementById('q4').selectedOptions[0].text);
+      console.log(document.getElementById('q4').selectedOptions[0].value);
+      console.log(question1Response)
+  
+      console.log("Question 5 Answer:")
+      console.log(document.getElementById('q5').selectedOptions[0].text);
+      console.log(document.getElementById('q5').selectedOptions[0].value);
+      console.log(question1Response)
+  
+      console.log("Question 6 Answer:")
+      console.log(document.getElementById('q6').selectedOptions[0].text);
+      console.log(document.getElementById('q6').selectedOptions[0].value);
+      console.log(question1Response)
+  
+  
+  
+      let question1Risk = 0 + Math.abs(question1Response);
+      let question2Risk = 0 + Math.abs(question2Response);
+      let question3Risk = 0 + Math.abs(question3Response);
+      let question4Risk = 0 + Math.abs(question4Response);
+      let question5Risk = 0 + Math.abs(question5Response);
+      let question6Risk = 0 + Math.abs(question6Response);
+  
+  
+      console.log("c1="+question1Risk);
+      console.log("c2="+question2Risk);
+      console.log("c3="+question3Risk);
+      console.log("c4="+question4Risk);
+      console.log("c5="+question5Risk);
+      console.log("c6="+question6Risk);
+  
+      let totalRisk = question1Risk + question2Risk + question3Risk + question4Risk + question5Risk + question6Risk;
+  
+  
+      totalRisk = Math.round(totalRisk);
+      console.log("tc="+totalRisk);
+  
+  
+  
+      document.getElementById("Risk").innerHTML = "Customer's Risk: "+totalRisk;
+  
+  
+      if (totalRisk <= 20) document.getElementById('remark').innerHTML = 'Low Risk';
+      else if (totalRisk <= 50) document.getElementById('remark').innerHTML = 'Moderate Risk';
+      else if (totalRisk <= 75) document.getElementById('remark').innerHTML = 'High Risk';
+      else if (totalRisk > 75) document.getElementById('remark').innerHTML = 'Uninsurable';
+  }
+  </script>
+  
+  
+  </body>
+</div>
+
+
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
